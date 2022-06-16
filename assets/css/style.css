@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Removed class selector */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +16,19 @@ header {
     color: #ffffff;
 }
 
+/* Removed class selector */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Removed class selector */
 header h1 .seo {
     color: #d9dcd6;
 }
 
-header div {
+/* Removed class selector, replaced dev with nav */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,24 +36,20 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
-    list-style-type: none;
-}
+/* Removed div elements dealing with list items */
 
-header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
+/* Added margin to space nav elements */
 a {
     color: #ffffff;
     text-decoration: none;
+    margin-left: 25px;
 }
 
 p {
     font-size: 16px;
 }
 
+/* Changed class to id selector, removed background image, set height to auto */
 #hero {
     height: auto;
     width: 100%;
@@ -187,6 +187,7 @@ p {
     font-size: 36px;
 }
 
+/* Removed class selector */
 footer {
     padding: 30px;
     clear: both;
@@ -194,6 +195,7 @@ footer {
     text-align: center;
 }
 
+/* Removed class selector */
 footer h2 {
     font-size: 20px;
 }
