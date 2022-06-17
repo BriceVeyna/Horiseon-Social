@@ -18,8 +18,11 @@ Accessibility is greatly improved through the use of sematic tags in place of no
 Another improvement can be made through the use alt text on an image. This allows for text readers to describe what is being displayed for the visually impared. Having semantic elements enclosing the image greatly aids in directing the individual through the page as well. For example:
 
 ```md
-![Figure and image alt text example](/assets/images/figure-image.JPG)
+![Figure with image alt text example](/assets/images/figure-image.JPG)
 ```
+
+## Deployed Application
+[Horiseon-Social](https://briceveyna.github.io/Horiseon-Social/)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
